@@ -1,0 +1,146 @@
+body,html{
+	margin:0;
+	padding:0;
+	font-family: arial,sans-serif;
+}
+
+header{
+	overflow: hidden;
+}
+
+header>ul{
+	display: flex;
+	justify-content: flex-end;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+header>ul>li{
+	list-style: none;
+	display: inline;
+	font-size: 13px;
+	padding: 7px;
+}
+header>ul>li>a{
+	text-decoration: none;
+	color:gray;
+}
+header>ul>li>#se-connecter{
+	border: solid;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	background-color:#46AAFE;
+}
+
+
+
+content>.google{
+	margin-top: 100px;
+	padding-top: 50px;
+}
+content>.google>.img-google{
+	max-width: 272px;
+	margin: 0 auto;
+
+}
+
+content>.google>.img-google>img{
+	max-width: 272px;
+
+}
+
+.champ-text{
+	max-width: 559px;
+	margin:25px auto;
+}
+.champ-text>input{
+	width: 549px;
+	border: none;
+	height: 25px;
+	padding: 10px;
+	box-shadow: 2px 1px 3px grey;
+	background-color: #FFF;
+	border-radius:  3px 3px 3px 3px;
+}
+.bouton{
+	width: 559px;
+	text-align: center;
+	margin:0 auto;
+}
+
+.bouton>input{
+	border: none;
+	padding: 10px;
+	background-color:#f8f8f8;
+	color:gray;
+	font-weight: bold;
+}
+
+.lang{
+	width: 559px;
+	text-align: center;
+	margin:0 auto;
+	padding: 20px;
+}
+.lang>p{
+	font-size: 12px;
+}
+.lang>p>a{
+	text-decoration: none;
+	color:#0000CD;
+}
+footer{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	overflow: hidden;
+	background-color: #f2f2f2;
+}
+
+.pays{
+	width: 100%;
+	border-top: solid 1px #DDDDDD;
+	font-size: 14px;
+	color: gray;
+	padding-left: 20px;
+ }
+.autre{
+	width: 100%;
+	border-top: solid 1px #DDDDDD;
+	font-size: 13px;
+	color: gray;
+}
+
+
+.autre>.autre-one{
+	display: inline-block;
+	overflow: hidden;
+	padding-left: 20px;
+}
+.autre>.autre-one>ul{
+	display: inline-block;
+	padding-left: 0px;
+}
+
+.autre>.autre-one>ul>li{
+	float: left;
+	list-style: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.autre>.autre-two{
+	float: right;
+	display: inline-block;
+	overflow: hidden;
+	padding-right: 20px;
+	
+}
+
+.autre>.autre-two>ul>li{
+	float: left;
+	list-style: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
